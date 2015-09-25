@@ -12,4 +12,4 @@ fsm: $(OBJECTS)
 	$(CXX) $(CFLAGS) -c $<
 
 clean:
-	@rm -vf *.o *~ qonk screenshot.bmp DEADJOE
+	@rm -vf *.o *~ fsm
